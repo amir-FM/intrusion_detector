@@ -26,19 +26,46 @@ by a buzzer.
 
 ## Circuit details
 
-**Unarmed**
-- green LED is lit
-- sensor is disabled
-- buzzer is off
-
-**Armed**
-- yellow LED is blinking
-- ultrasonic sensor is operational
-
-**Alarm**
-- red LED is blinking
-- alarm is triggered
-- buzzer is producing sound
+<table>
+<tr>
+<th>Unarmed</th>
+<th>Armed</th>
+<th>Alarm</th>
+</tr>
+<tr>
+<td>
+  <img width="400" height="300" alt="unarmed" src="https://github.com/user-attachments/assets/ec517958-9b91-4546-82da-137fbdb6516b" />
+</td>
+<td>
+  <img width="400" height="300" alt="armed" src="https://github.com/user-attachments/assets/94b4ba5b-f6bf-44b3-ae12-bc0283bc6c60" />
+</td>
+<td>
+  <img width="400" height="300" alt="alarm" src="https://github.com/user-attachments/assets/7970cde4-8b1d-4600-9864-1210b08e7344" />
+</td>
+</tr>
+<tr>
+<td>
+  <ul>
+    <li>green LED is lit</li>
+    <li>sensor is disabled</li>
+    <li>buzzer is off</li>
+  </ul>
+</td>
+<td>
+  <ul>
+    <li>yellow LED is blinking</li>
+    <li>ultrasonic sensor is operationalf</li>
+  </ul>
+</td>
+<td>
+  <ul>
+    <li>red LED is blinking</li>
+    <li>alarm is triggered</li>
+    <li>buzzer is producing sound</li>
+  </ul>
+</td>
+</tr>
+</table>
 
 ## Code
 
