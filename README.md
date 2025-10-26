@@ -15,14 +15,14 @@ by a buzzer.
 
 ## Components
 
-1 x Plusivo UNO R3 Development Board
-1 x HC-SR04 Ultrasonic Sensor Module
-1 x Passive Buzzer
-4 x 1k Resistors
-1 x Red LED
-1 x Green LED
-1 x Yellow LED
-1 x Button
+- 1 x Plusivo UNO R3 Development Board
+- 1 x HC-SR04 Ultrasonic Sensor Module
+- 1 x Passive Buzzer
+- 4 x 1k Resistors
+- 1 x Red LED
+- 1 x Green LED
+- 1 x Yellow LED
+- 1 x Button
 
 ## Circuit details
 
