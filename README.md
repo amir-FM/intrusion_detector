@@ -24,26 +24,26 @@ by a buzzer.
 1 x Yellow LED
 1 x Button
 
-## Circuit
-
+## Circuit details
 
 **Unarmed**
-
 - green LED is lit
 - sensor is disabled
 - buzzer is off
 
 **Armed**
-
 - yellow LED is blinking
 - ultrasonic sensor is operational
 
 **Alarm**
-
 - red LED is blinking
 - alarm is triggered
 - buzzer is producing sound
 
+## Code
+
+The functions that trigger the pulsing of LEDs and buzzer are made to be
+**non-blocking** as to allow the controller to do other operations.
 
 *Notes:* In this setup the consumption of the system is dependent on the rate
 at which the ultrasonic sensor is taking samples. For the sake of detection the
